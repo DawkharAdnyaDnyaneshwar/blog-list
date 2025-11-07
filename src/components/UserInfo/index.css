@@ -20,16 +20,16 @@
   color: #616e7c;
 }
 
-@media all and (min-width: 768px ) {
-    .profile-img {
+@media all and (min-width: 768px) {
+  .profile-img {
     width: 150px;
-    }
+  }
 
-    .user-name {
+  .user-name {
     font-size: 24px;
-    }
+  }
 
-    .user-detail {
+  .user-detail {
     font-size: 20px;
-    }
+  }
 }
