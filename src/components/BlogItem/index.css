@@ -1,1 +1,44 @@
-/* Write your CSS code here */
+.eachItem {
+  font-family: 'Roboto';
+}
+
+.name-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-size: 18px;
+}
+
+.date {
+  color: #616e7c;
+  font-size: 14px;
+}
+
+.description {
+  color: #616e7c;
+  font-size: 13px;
+}
+
+.hr-line {
+  border: 1px solid #dcdfe3;
+}
+
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .date {
+    color: #616e7c;
+    font-size: 20px;
+  }
+
+  .description {
+    color: #616e7c;
+    font-size: 19px;
+  }
+}
